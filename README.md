@@ -4,16 +4,22 @@ Plugin for GIMP to open/save image for VW MIB STD2 PQ/ZR Technisat/Preh boot ani
 NOTICE:
 boot animation -is a series of 800x480 png images and separate labels (depending on the model / configuration) 480x100.
 The base file format is png, but with the original color encoding. This project is an attempt to convert a mib png to a regular color image and back
-All transformations have been obtained empirically and are certainly different from those in the system. 
-Colors and shades may differ from those specified.
+
+!!! All transformations have been obtained empirically and colors and shades may differ from those specified.
 
 
 To install just extract to plug-ins folder of GIMP (in my case it's c:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins) and restart GIMP
 
 How to use:
-create image with resolution 800x480 or 480x100 for label
+Open image
+1. Change extension of original .png to .mib
+2. Run GIMP and in File\open menu choose your file
 
-In menu - select File\Export As... (Shift+Ctrl+E)
+
+Create/Save new image:
+1. create RGB image with resolution 800x480 or 480x100 for label
+
+2. In menu - select File\Export As... (Shift+Ctrl+E)
 Set name\folder to export
 In "Select File Type (By Extension)" (bottom left) choose "MIB2STD BOOT Image"
 
